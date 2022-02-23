@@ -1,13 +1,18 @@
 <template>
-  Advice #<!-- Advice ID goes here -->
-
-  "<!-- Advice text goes here -->"
+  <Advice id="1" />
+  <Attribution />
 </template>
 
 <script>
+import Advice from "./components/Advice.vue";
+import Attribution from "./components/Attribution.vue";
 
 export default {
-  name: "App"
+  name: "App",
+  components: {
+    Advice,
+    Attribution,
+  },
 };
 </script>
 

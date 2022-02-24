@@ -1,5 +1,5 @@
 <template>
-  <Advice id="1" />
+  <Advice />
   <Attribution />
 </template>
 
@@ -17,12 +17,7 @@ export default {
 </script>
 
 <style>
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-
-.attribution a {
-  color: hsl(228, 45%, 44%);
+body {
+  background: #212632;
 }
 </style>

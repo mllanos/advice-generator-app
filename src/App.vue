@@ -19,5 +19,18 @@ export default {
 <style>
 body {
   background: #212632;
+  font-family: 'Manrope';
+  font-weight: 800;
+}
+html {
+   margin: 0px;
+   height: 100%;
+   width: 100%;
+}
+
+body {
+   margin: 0px;
+   min-height: 100%;
+   width: 100%;
 }
 </style>
